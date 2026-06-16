@@ -214,18 +214,18 @@ OLX-Rental-Fraud-Detection/
 ## Running the Project
 
 Install required libraries:
-import pandas as pd 
-import numpy as np 
-import matplotlib.pyplot as plt 
-import seaborn as sns 
-import streamlit as st 
-import pickle 
-from sklearn.model_selection import train_test_split, cross_val_score 
-from sklearn.preprocessing import StandardScaler 
-from sklearn.linear_model import LogisticRegression 
-from sklearn.tree import DecisionTreeClassifier 
-from sklearn.ensemble import RandomForestClassifier 
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
+*import pandas as pd 
+*import numpy as np 
+*import matplotlib.pyplot as plt 
+*import seaborn as sns 
+*import streamlit as st 
+*import pickle 
+*from sklearn.model_selection import train_test_split, cross_val_score 
+*from sklearn.preprocessing import StandardScaler 
+*from sklearn.linear_model import LogisticRegression 
+*from sklearn.tree import DecisionTreeClassifier 
+*from sklearn.ensemble import RandomForestClassifier 
+*from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 
 Run Streamlit application:
 
