@@ -235,6 +235,6 @@ http://localhost:8501
 
 Anosha Aamer
 
-BS Data Science / Artificial Intelligence
+BS Data Science 
 
 National University of Computer and Emerging Sciences
