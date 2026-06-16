@@ -184,36 +184,28 @@ Users can:
 
 ---
 
-## Project Workflow
-
-1. Data collection through web scraping
-2. Data preprocessing
-3. Exploratory Data Analysis
-4. Feature selection
-5. Feature scaling
-6. Machine learning model implementation
-7. Model evaluation
-8. Cross-validation
-9. Model selection
-10. Streamlit application development
-11. Real-time prediction deployment
-
----
-
 ## Project Structure
 
 ```text
 OLX-Rental-Fraud-Detection/
+│ ├── image/
+│ ├── app_ui.png
+│ ├── class_distribution.png
+│ ├── confusion_matrix.png
+│ ├── frauddetect.png
+│ ├── heatmap.png
+│ ├── legitimate.png
+│ └── price_distribution.png
 │
 ├── app.py
+├── data_cleaned.ipynb
+├── data_scraped.ipynb
+├── model_and_application.ipynb
 ├── model.pkl
 ├── scaler.pkl
+├── OLXdata_full1.csv
 ├── OLXdata_labelled.csv
-├── notebook.ipynb
-├── requirements.txt
-├── screenshots/
-│      └── app_ui.png
-│
+├── urls_backup.pkl
 └── README.md
 ```
 
@@ -222,10 +214,18 @@ OLX-Rental-Fraud-Detection/
 ## Running the Project
 
 Install required libraries:
-
-```bash
-pip install -r requirements.txt
-```
+import pandas as pd 
+import numpy as np 
+import matplotlib.pyplot as plt 
+import seaborn as sns 
+import streamlit as st 
+import pickle 
+from sklearn.model_selection import train_test_split, cross_val_score 
+from sklearn.preprocessing import StandardScaler 
+from sklearn.linear_model import LogisticRegression 
+from sklearn.tree import DecisionTreeClassifier 
+from sklearn.ensemble import RandomForestClassifier 
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 
 Run Streamlit application:
 
@@ -238,21 +238,6 @@ Open browser:
 ```text
 http://localhost:8501
 ```
-
----
-
-## Application Screenshot
-
-(Add project screenshots here)
-
-Example:
-
-```md
-![Application Interface](screenshots/app_ui.png)
-```
-
----
-
 
 ## Author
 
