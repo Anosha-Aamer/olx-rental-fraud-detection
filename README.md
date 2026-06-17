@@ -234,7 +234,9 @@ http://localhost:8501
 ## Author
 
 Anosha Aamer
+
 linkedIn : https://www.linkedin.com/in/anosha-aamer-a406ba321?utm_source=share_via&utm_content=profile&utm_medium=member_ios
+
 Gmail: aameranosha@gmail.com
 
 BS Data Science 
